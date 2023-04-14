@@ -106,10 +106,20 @@ class buildarray {
 }
 ```
 
-Q5
+Q5 Leetcode-1929 Concatenation of Array
 
 ```java
-
+class Solution {
+    public int[] getConcatenation(int[] nums) {
+        int n = nums.length;
+        int ans[] = new int[2*n];
+        for(int i=0;i<n;i++){
+            ans[i] = nums[i];
+            ans[i+n] = nums[i];
+        }
+        return ans;
+    }
+}
 ```
 
 Q6
