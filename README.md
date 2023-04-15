@@ -142,10 +142,33 @@ class Solution {
 }
 ```
 
-Q7:
+Q7: Leetcode-66 Plus One
 
 ```java
+class Solution {
+    public int[] plusOne(int[] ar) {
 
+        //aconverting to int from array    
+        int res=0;
+        for(int i=0;i<ar.length;i++) {
+            res=res*10+ar[i];
+        }
+        
+        res = res+1;
+
+        // converting back to array
+        String strNumber = res+"";
+        int[] array = new int[strNumber.length()];
+        int index = 0;
+        for(char c : strNumber.toCharArray()){
+            array[index++] = Integer.parseInt(c+"");
+        }
+        System.out.println(Arrays.toString(array));
+        return array;
+        
+    }
+    
+}
 ```
 
 Q8:
