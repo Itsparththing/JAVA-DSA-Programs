@@ -3,7 +3,7 @@ Solution of every problem that I have solved.
 
 ## Topic-1: Arrays
 
-Q1 Swapping Values in array
+Q1: Swapping Values in array
 
 ```java
 import java.util.Scanner;
@@ -26,7 +26,7 @@ public class Arraays {
 }
 ```
 
-Q2 Sinding maximum value in the array
+Q2: Sinding maximum value in the array
 
 ```java
 public class Arraays {
@@ -62,7 +62,7 @@ public class Arraays {
 }
 ```
 
-Q3 Reversing array elemets
+Q3: Reversing array elemets
 
 ```java
 import java.util.Arrays;
@@ -93,7 +93,7 @@ public class Arraays {
 }
 ```
 
-Q4 Leetcode-1920 Build Array from Permutation
+Q4: Leetcode-1920 Build Array from Permutation
 
 ```java
 class buildarray {
@@ -106,7 +106,7 @@ class buildarray {
 }
 ```
 
-Q5 Leetcode-1929 Concatenation of Array
+Q5: Leetcode-1929 Concatenation of Array
 
 ```java
 class Solution {
@@ -122,7 +122,51 @@ class Solution {
 }
 ```
 
-Q6
+Q6: Leetcode-121 Best Time to Buy and Sell Stock
+
+```java
+class Solution {
+    public int maxProfit(int[] prices) {
+        int max =0;
+        int m = 0;
+        for (int i = prices.length-1; i>=0; i -- ){
+            if (prices[i]>= max ){
+                max = prices[i];
+            } else {
+                m = Math.max(max - prices[i], m);  
+            }
+        
+        }
+        return m; 
+    }
+}
+```
+
+Q7:
+
+```java
+
+```
+
+Q8:
+
+```java
+
+```
+
+Q9:
+
+```java
+
+```
+
+Q10:
+
+```java
+
+```
+
+Q11:
 
 ```java
 
