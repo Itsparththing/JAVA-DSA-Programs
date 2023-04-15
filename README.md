@@ -163,11 +163,8 @@ class Solution {
         for(char c : strNumber.toCharArray()){
             array[index++] = Integer.parseInt(c+"");
         }
-        System.out.println(Arrays.toString(array));
-        return array;
-        
+        return array;     
     }
-    
 }
 ```
 
