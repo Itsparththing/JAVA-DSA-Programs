@@ -226,8 +226,25 @@ class Solution {
 
 ```
 
-Q9:
+Q9: Leetcode-1470 Shuffle the Array
 
+class Solution {
+    public int[] shuffle(int[] nums, int n) {
+        int [] ans = new int[nums.length];
+        int x =0;
+        for(int i =0; i<nums.length; i++){
+            if(i%2==0){
+                ans[i] = nums[x];
+                x++;
+            }
+            else{
+                ans[i]= nums[n];
+                n++;
+            }
+        }
+        return ans;
+    }
+}
 ```java
 
 ```
@@ -239,6 +256,42 @@ Q10:
 ```
 
 Q11:
+
+```java
+
+```
+
+Q12:
+
+```java
+
+```
+
+Q13:
+
+```java
+
+```
+
+Q14:
+
+```java
+
+```
+
+Q15:
+
+```java
+
+```
+
+Q16:
+
+```java
+
+```
+
+Q17:
 
 ```java
 
