@@ -228,6 +228,7 @@ class Solution {
 
 Q9: Leetcode-1470 Shuffle the Array
 
+```java
 class Solution {
     public int[] shuffle(int[] nums, int n) {
         int [] ans = new int[nums.length];
@@ -245,14 +246,26 @@ class Solution {
         return ans;
     }
 }
-```java
-
 ```
 
-Q10:
+Q10: Leetcode-2011 Final Value of Variable After Performing Operations
 
 ```java
-
+class Solution {
+    public int finalValueAfterOperations(String[] operations) {
+        int x=0;
+        for(int i=0; i< operations.length; i++ ){
+            if(operations[i].charAt(1)=='+'){
+                x++;
+            }
+            else{
+                x--;
+            }
+           
+        }
+        return x;
+    }
+}
 ```
 
 Q11:
