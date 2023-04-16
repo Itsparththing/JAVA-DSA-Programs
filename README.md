@@ -356,10 +356,29 @@ class Solution {
 }
 ```
 
-Q14:
+Q14: Leetcode-1431 Kids With the Greatest Number of Candies
 
 ```java
-
+class Solution {
+    public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+        int minval = candies[0];
+        ArrayList arr=new ArrayList<>(); 
+        for (int i = 0; i < candies.length; i++) {
+            if (candies[i] > minval) {
+                minval = candies[i];
+            }
+        }    
+        for(int j =0; j<candies.length; j++ ){
+            if((candies[j]+extraCandies)>=minval){
+                arr.add(true);
+                }
+            else{
+                arr.add(false);
+            }
+        }
+        return arr;
+    }
+}
 ```
 
 Q15:
@@ -379,4 +398,23 @@ Q17:
 ```java
 
 ```
+
+Q18:
+
+```java
+
+```
+
+Q19:
+
+```java
+
+```
+
+Q20:
+
+```java
+
+```
+
 
