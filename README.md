@@ -65,6 +65,7 @@ public class Arraays {
 Q3: Reversing array elemets
 
 ```java
+
 import java.util.Arrays;
 
 public class Arraays {
@@ -91,11 +92,13 @@ public class Arraays {
         arr2[index2] = temp;
     }
 }
+
 ```
 
 Q4: Leetcode-1920 Build Array from Permutation
 
 ```java
+
 class buildarray {
     public int[] buildArray(int[] nums) {
         int[] ans = new int[nums.length];
@@ -104,11 +107,13 @@ class buildarray {
         return ans;
     }
 }
+
 ```
 
 Q5: Leetcode-1929 Concatenation of Array
 
 ```java
+
 class Solution {
     public int[] getConcatenation(int[] nums) {
         int n = nums.length;
@@ -125,6 +130,7 @@ class Solution {
 Q6: Leetcode-121 Best Time to Buy and Sell Stock
 
 ```java
+
 class Solution {
     public int maxProfit(int[] prices) {
         int max =0;
@@ -140,6 +146,7 @@ class Solution {
         return m; 
     }
 }
+
 ```
 
 Q7: Leetcode-66 Plus One
@@ -199,6 +206,7 @@ class Solution {
         return array;     
     }
 }
+
 ```
 
 Q8: Leetcode-6334 Find the Score of All Prefixes of an Array (weekly Challenge)
@@ -262,6 +270,7 @@ class Solution {
 Q9: Leetcode-1470 Shuffle the Array
 
 ```java
+
 class Solution {
     public int[] shuffle(int[] nums, int n) {
         int [] ans = new int[nums.length];
@@ -279,11 +288,13 @@ class Solution {
         return ans;
     }
 }
+
 ```
 
 Q10: Leetcode-2011 Final Value of Variable After Performing Operations
 
 ```java
+
 class Solution {
     public int finalValueAfterOperations(String[] operations) {
         int x=0;
@@ -299,6 +310,7 @@ class Solution {
         return x;
     }
 }
+
 ```
 
 Q11: Leetcode-1512 Number of Good Pairs
@@ -317,11 +329,13 @@ class Solution {
         return x;
     }
 }
+
 ```
 
 Q12: Leetcode-1672 Richest Customer Wealth
 
 ```java
+
 class Solution {
     public int maximumWealth(int[][] accounts) {
         
@@ -338,6 +352,7 @@ class Solution {
         return maxwealth;
     }
 }
+
 ```
 
 Q13: Leetcode-1480 Running Sum of 1d Array
@@ -354,11 +369,13 @@ class Solution {
         return nums;
     }
 }
+
 ```
 
 Q14: Leetcode-1431 Kids With the Greatest Number of Candies
 
 ```java
+
 class Solution {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         int minval = candies[0];
@@ -379,6 +396,7 @@ class Solution {
         return arr;
     }
 }
+
 ```
 
 Q15: Leetcode-2114 Maximum Number of Words Found in Sentences
@@ -409,9 +427,26 @@ public class functions {
 
 ```
 
-Q16:
+Q16: Leetcode-1365 How Many Numbers Are Smaller Than the Current Number
 
 ```java
+
+class Solution {
+    public int[] smallerNumbersThanCurrent(int[] nums) {
+        int smaller [] =new int [nums.length];
+        
+        for(int i =0; i<nums.length; i++){
+            int count =0;
+            for(int j=0; j<nums.length; j++){
+                if(nums[j]<nums[i]){
+                        count++;
+                }
+            }
+            smaller[i]=count;
+        }
+        return smaller;
+    }
+}
 
 ```
 
