@@ -6,6 +6,7 @@ Solution of every problem that I have solved.
 Q1: Swapping Values in array
 
 ```java
+
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -29,6 +30,7 @@ public class Arraays {
 Q2: Sinding maximum value in the array
 
 ```java
+
 public class Arraays {
     public static void main(String[] args) {
 
@@ -60,6 +62,7 @@ public class Arraays {
         return max_val;
     }
 }
+
 ```
 
 Q3: Reversing array elemets
