@@ -25,6 +25,7 @@ public class Arraays {
     }
     
 }
+
 ```
 
 Q2: Sinding maximum value in the array
@@ -128,6 +129,7 @@ class Solution {
         return ans;
     }
 }
+
 ```
 
 Q6: Leetcode-121 Best Time to Buy and Sell Stock
