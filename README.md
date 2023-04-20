@@ -530,23 +530,74 @@ Q25:
 ```
 
 
-## Topic-2: Strings
+## Topic-2: Recursion
 
-Q1:
+Q1: Leetcode-231 Power of Two
 
 ```java
+
+class Solution {
+    public boolean isPowerOfTwo(int n) {
+        if(n==0){
+            return false;
+        }
+        else if(n==1){
+            return true;
+        }
+        else if(n%2==0 & isPowerOfTwo(n/2)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
 
 ```
 
-Q2:
+Q2: Leetcode-326 Power of Three
 
 ```java
+
+class Solution {
+    public boolean isPowerOfThree(int n) {
+        if(n==0){
+            return false;
+        }
+        else if(n==1){
+            return true;
+        }
+        else if(n%3==0 & isPowerOfThree(n/3)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
 
 ```
 
-Q3:
+Q3: Leetcode-342 Power of Four
 
 ```java
+
+class Solution {
+    public boolean isPowerOfFour(int n) {
+        if(n==0){
+            return false;
+        }
+        else if(n==1){
+            return true;
+        }
+        else if(n%4==0 & isPowerOfFour(n/4)){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
 
 ```
 
