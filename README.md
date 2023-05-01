@@ -502,6 +502,7 @@ class Solution {
 Q19: Leetcode-54 Spiral Matrix
 
 ```java
+
 class Solution {
     public List<Integer> spiralOrder(int[][] matrix) {
 
@@ -544,9 +545,21 @@ class Solution {
 
 ```
 
-Q20:
+Q20: Leetcode-2652 Sum Multiples
 
 ```java
+
+class Solution {
+    public int sumOfMultiples(int n) {
+        int count =0;
+        for(int i=1; i<=n;i++){
+            if(i%3==0||i%5==0||i%7==0){
+                count = count+i;
+            }
+        }
+        return count;
+    }
+}
 
 ```
 
