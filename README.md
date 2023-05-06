@@ -499,7 +499,7 @@ class Solution {
 
 ```
 
-Q19: Leetcode-54 Spiral Matrix
+Q19: Leetcode-54 Spiral Matrix (Medium)
 
 ```java
 
