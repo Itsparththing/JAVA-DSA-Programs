@@ -71,6 +71,6 @@ Q5:
 
 Q1: Leetcode-744 Find Smallest Letter Greater Than Target
 
-Q2: Conceling of a number
+Q2: Ceiling of a number
 
 
