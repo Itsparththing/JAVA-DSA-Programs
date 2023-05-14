@@ -67,4 +67,10 @@ Q4:
 Q5:
 
 
+## Topic-3: Binary Search Algorithm
+
+Q1: Leetcode-744 Find Smallest Letter Greater Than Target
+
+Q2: Conceling of a number
+
 
