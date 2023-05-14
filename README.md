@@ -50,7 +50,6 @@ Q23: Leetcode-860 Lemonade Change
 
 Q24: Leetcode-2535 Difference Between Element Sum and Digit Sum of an Array
 
-Q25:
 
 
 
@@ -62,9 +61,6 @@ Q2: Leetcode-326 Power of Three
 
 Q3: Leetcode-342 Power of Four
 
-Q4:
-
-Q5:
 
 
 ## Topic-3: Binary Search Algorithm
