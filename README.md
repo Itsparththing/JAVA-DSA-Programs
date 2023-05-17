@@ -69,4 +69,6 @@ Q1: Leetcode-744 Find Smallest Letter Greater Than Target
 
 Q2: Ceiling of a number
 
+Q3: Leetcode-34 Find First and Last Position of Element in Sorted Array
+
 
