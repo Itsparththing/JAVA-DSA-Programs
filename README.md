@@ -71,4 +71,6 @@ Q2: Ceiling of a number
 
 Q3: Leetcode-34 Find First and Last Position of Element in Sorted Array
 
+Q4: Leetcode-2089 Find Target Indices After Sorting Array
+
 
