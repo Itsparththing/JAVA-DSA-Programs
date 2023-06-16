@@ -50,6 +50,9 @@ Q23: Leetcode-860 Lemonade Change
 
 Q24: Leetcode-2535 Difference Between Element Sum and Digit Sum of an Array
 
+Q25: Leetcode-2523 Closest Prime Numbers in Range
+
+
 
 
 
